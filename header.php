@@ -63,7 +63,7 @@
 				endif; 
 			?> -->
 <div class="btn-group top-news">
-<a href="http://tech.leepine.com/" title="leez网" rel="home">
+<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo bloginfo('name'); ?>" rel="home">
 <img width="30" height="26" src="<?php echo get_template_directory_uri(); ?>/assets/img/home.png" alt="leez网" />
 </a>
 </div>		    <div class="wrap-navigation">
