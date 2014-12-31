@@ -1,0 +1,57 @@
+/*
+Theme Name: DW Focus 风腾汉化版
+Theme URI: http://www.zhangleisir.cn
+Author: the DesignWall team
+Author URI: http://www.zangleisir.cn
+分   享： wordpress主题先生 http://www.zhangleisir.cn
+Description: Responsive News WordPress Theme
+Version: 1.0.5
+License: GNU General Public License
+License URI: license.txt
+*/
+select {font-family:Microsoft Yahei,SimSun,Helvetica,Verdana,Arial,sans-serif;font-size:15px;font-weight:600;}
+.ie8.desktop .top-news {float:left;width:8%;height:43px;padding:0px;text-align:center;}
+.ie8.desktop .top-news>img {margin-top:9px;}
+.ie8.desktop .top-news>a {width:100%;height:43px;margin-top:9px;}
+
+.desktop .top-news {float:left;width:8%;height:43px;padding:0px;text-align:center;}
+.desktop .top-news>img {margin-top:9px;}
+.desktop .top-news>a {width:100%;height:43px;margin-top:9px;}
+.desktop .top-news>a:hover{opacity:.7;filter:alpha(opacity=70)}
+#main .container {padding-top:20px;}
+#masthead {padding-bottom:0px;}
+
+.single .hentry .entry-content,.page .hentry .entry-content{font-size:15px;line-height:33px;color:#333;text-shadow: 0px 0px 1px #d1d1d1;}
+.entry-header h1.entry-title {text-shadow: 0px 0px 2px #ccc;}
+.entry-header entry-meta,.entry-header .entry-meta .post-categories  {text-align:center;}
+
+.category-title .tab_title{font-size:18px;text-shadow: 0px 0px 2px #ccc;}
+
+#branding {width:100%;text-align:center;}
+#logo a {margin:0;}
+#logo {margin:0;width:auto;}
+#logo h1{margin:0;-webkit-transition:opacity .5s;-moz-transition:opacity .5s;-o-transition:opacity .5s;transition:opacity .5s}
+#logo h1:hover{opacity:.7;filter:alpha(opacity=70)}
+.top-ad  {display:block;float:right;}
+#sidebar-header  {display:block;float:right;}
+.entry-content p {text-indent: 2em;}
+.single .site-content>.hentry .entry-content {
+position: relative;
+overflow: hidden;
+min-height: 215px;
+float: left;
+max-width: 770px;
+margin-bottom: 15px;
+}
+.page-template-template-sitemap-php #main>.container>.row {
+background: none;
+}
+.container {
+background-color: #eee;
+}
+#site1-tools {
+margin: 0 -20px 0 0px;
+}
+#site1-tools .breadcrumbs {
+margin: 0 0 0 -15px;
+}
